@@ -1,0 +1,24 @@
+﻿<Window x:Class="HospitalSmrn.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HospitalSmrn"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="1160">
+    <Grid>
+        <Grid Width="1110" Height="120">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Border  BorderThickness="1" BorderBrush="Black" Grid.ColumnSpan="3"/>
+            <TextBlock HorizontalAlignment="Center" Text="21.01.2001" FontSize="25" VerticalAlignment="Center" Foreground="Black" FontFamily="Andika"></TextBlock>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="Инъекции и внутривенные вливания, Анализ крови на общий анализ" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Center" Foreground="Black" FontFamily="Andika"></TextBlock>
+            <TextBlock Grid.Column="2" HorizontalAlignment="Center" Text="Петрович Петр Иванович" FontSize="25" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="Black" FontFamily="Andika"></TextBlock>
+
+        </Grid>
+
+    </Grid>
+</Window>
